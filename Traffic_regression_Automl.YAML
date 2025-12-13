@@ -1,0 +1,172 @@
+description: null
+tags:
+  model_explain_run: best_run
+  automl_best_child_run_id: jovial_jicama_cxrxm38fkx_64
+  model_explain_best_run_child_id: jovial_jicama_cxrxm38fkx_64
+  _aml_system_automl_mltable_data_json: >-
+    {"Type":"MLTable","TrainData":{"Uri":"azureml://locations/eastus2/workspaces/9bb1a263-e99b-4441-89fa-12a6b2e39ce6/data/regression_dataset/versions/1","ResolvedUri":null,"AssetId":null},"TestData":null,"ValidData":null}
+  _aml_system_automl_run_workspace_id: 9bb1a263-e99b-4441-89fa-12a6b2e39ce6
+  _aml_system_azureml.automlComponent: AutoML
+  pipeline_id_000: >-
+    faf12f74cf9bbd358ca5525682c5030d36f7be7c;4bc4ec47eb8df2d5d68b361cd60120e65196f757;2dc95d8bafd84221b8de309021c722b4fa570e77;86f7c6ce026522eff88f32e647e3e27450da2679;7839ca66a0ff9be386363c852f0384a7b2a1c93f;ae729f09378486945c70eb2a2306f8aa8f4e30a7;b5f35f573ce4f6e8526176d4e0932b5193598307;2fc5ee5be65983eab8d5af23f74954191da0c4f2;0e4d1e646ec698bc1e08f88af9d6e54d9b5422df;735cba3318c2ccc77fba61252dbfd5b383e4584f;b76be6b5846772ee1128c4d415381c1e9fed455e;e82ddfae3f3411c8b05ab2d7bcfa24efe6127128;8dd0d2b5b07d59df7d3518d8fdd9759f1d7144ab;363e188cf66af3167162068ddb47df1e1d4c64c1;8a88a88c161345f1ea426367a9f85077c834f4e0;3d41561aa650aa5533e046dbc8a84c64295d0663;cb44bb856e47d617d7a9ad0d334455564181de96;7ac99a8d7e1f10883e7b154ca80bc4c96085ea6e;d06172a655b6232a9b9f551137c6a5776dd25598;937793170cf594aed1cd5bfca160d4614efe2739;d7b5ca4918510e5e3696f6e4c2ab81be2b01da1a;106b5dd53d6c290a63b163fc0cca288df0c14549;6062f6b39fda22a1f83e2d28d0e1a7e7886c1505;2fdf9c8b2209ecdcba3ffcb0110749139e5c2e33;728cb82ee2757bf58cebc724f3c081105ca68a2e;9d3ccf84e697ffbcd59378494bd8b5cc4dfa8fc9;e4f7446da98c8a79e0522d1342d110d06ae5facd;93789d68c50fd1aea2c1e0f9db364129ac9b35fe;95ddff2b61850de29649da47442b36f44f33c30b;720953ddbe2789cc918d771a23f391e5887c7525;9ac92584affa9e6820e2571f6ee6a19430537568;6c0be7616ac459d8e33fd6eaf243bb2f28e4533e;9791313c13ed571a66fe6595e3040b1f1d432c15;d09d16d0e295cecc31328c71d2d10d5a4b81bbaf;2f3765943586e525a8124babf40c322d8631ac43;37063df74886a0971f4e553e0fb3aba51d005b70;92b8cbb3004300e7cea5eb785ce385b5bb7e8db4;94035be18abe363a407a7cc7e9caf129cdd16700;9c38a2274d0ef630edd7ab10839b68ef684d8f56;3146cdf315dfc223814bd73e5f9478d5c3f4bb3d;ebc113de58f7602ad0c450de8f4e3d96ca726e80;40335f8394a7231230a50ce1dbb32eb3d105550c;0cf4fcbb404861bcf3a6b6e17e58e6a34400b242;6e1586935c3cf3f32f717116c192ece30f31ef8d;95be9a9843fed9984edc88bad8a2e88910eb4abd;e4fa81958ca087ec4c402210d65da33e49445a54;d3163e96c0ddd24d13ec85bce5e228b425566aae;6cbff80d09c1e679673278f953ccceadc4532c71
+  score_000: >-
+    0.05972938346114701;0.05600870698309467;0.0960685869555396;0.09585087197759837;0.09593796749867718;0.09584913589233371;0.07715378504255221;0.09615491875240974;0.09585402293513523;0.1230336478166187;0.1257302978531876;0.1142066966272614;0.10598205256368431;0.09615491875240974;0.10008322296496572;0.09599458306924676;0.11859510419311033;0.09621242407064695;0.09259834217304486;0.1256832648875462;0.08490693178777069;0.08401386795944635;0.09607737605403661;0.11925120073655564;0.08343453395339688;0.053804150916721916;0.09132927592056882;0.07764872102042662;0.10159119682964572;0.10336405389312614;0.12932361995711708;0.08821331610779544;0.09119203082798982;0.11784247282984742;0.09683566830449593;0.11837659451250467;0.12100828682046831;0.11016889878459207;0.11449561293556418;0.11109324967464351;0.0682506023168774;0.08156389452027928;0.12110814597277951;0.09813840007750063;0.12565822082321068;0.06250476759151312;0.1189222813495178;0.12200215671011683;0.12450113989894986;0.12431901827727239;0.09668896100227828;0.11840581127725422;0.1068328007827772;0.12260813469156742;0.113799406303017;0.09209813500533641;0.1184597823658476;0.08722244758131657;0.12504863640151836;0.09305681945735225;0.08996256858429502;0.12076479175469748;0.10363981042221183;0.1247419053332167;0.05291817553661268
+  predicted_cost_000: >-
+    0;0;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.5;0.8970268731204976;42.60291984822918;9.17857690321167;2.8914220194633233;0.1188928157479613;4.1332641636825995;3.737228497493767;1.0833749440412876;5.160449828437703;0.6171142133346235;47.39954853157524;0.6071190480742452;0.843152716548805;10.382370171439792;0.5212787810387425;1.7108821107196381;1.2279839575151439;11.82400590726638;0.5999723748525305;4.347920182231497;0.2227551068214588;14.053657074975415;0.6145273574857975;7.519309146221792;9.659859598020798;0.9793887442577858;0.3995658122719023;2.1593481915006785;0.4724023801679455;17.505266456382554;3.729427986254242;1.0466318802793673;0.8123796478731528;7.289758811042607;0.7449090548535765;1.1447498597034311;1.7091815844982032;7.5066856279438845;3.801766537330245;3.3482349165555174;1.9287244679130269;1.6954927410283847;6.452528595523343;0.8637131245260239;0
+  fit_time_000: >-
+    0.339124;1.348471;12.382429;12.464394;12.386146;13.103952999999999;2.159227;8.474033;12.540504;2.528014;0.226079;10.314269000000001;3.256282;8.482641999999998;0.986339;9.881345999999999;0.162963;7.5468020000000005;0.5369999999999999;9.955643;0.944202;26.878539;21.208859;2.827154;1.065938;0.887783;4.943661;1.77816;2.310719;0.5116550000000001;0.364763;0.10187700000000001;4.825235;5.649050000000001;11.200384;1.582049;0.410217;2.803166;0.722128;8.495928999999999;0.469662;13.079384;0.099862;18.132295;1.996153;0.391044;0.264927;2.191189;0.453287;5.915944;0.30704000000000004;0.18678899999999998;0.36177899999999996;6.29615;1.5026410000000001;0.48140700000000003;1.188811;0.15459;1.48359;7.222307000000001;0.20138899999999998;0.22381;6.949645;1.642584;14
+  training_percent_000: >-
+    100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100
+  iteration_000: >-
+    0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63;64
+  run_preprocessor_000: >-
+    MaxAbsScaler;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;MaxAbsScaler;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;MaxAbsScaler;SparseNormalizer;StandardScalerWrapper;MaxAbsScaler;StandardScalerWrapper;SparseNormalizer;StandardScalerWrapper;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;SparseNormalizer;MaxAbsScaler;MaxAbsScaler;StandardScalerWrapper;MaxAbsScaler;SparseNormalizer;StandardScalerWrapper;StandardScalerWrapper;StandardScalerWrapper;
+  run_algorithm_000: >-
+    LightGBM;XGBoostRegressor;ElasticNet;ElasticNet;ElasticNet;ElasticNet;ExtremeRandomTrees;ElasticNet;ElasticNet;ElasticNet;RandomForest;ElasticNet;ElasticNet;ElasticNet;ElasticNet;ElasticNet;DecisionTree;ElasticNet;DecisionTree;GradientBoosting;ExtremeRandomTrees;ExtremeRandomTrees;ExtremeRandomTrees;RandomForest;ExtremeRandomTrees;XGBoostRegressor;ExtremeRandomTrees;ExtremeRandomTrees;RandomForest;RandomForest;XGBoostRegressor;LightGBM;RandomForest;ExtremeRandomTrees;ExtremeRandomTrees;XGBoostRegressor;RandomForest;ExtremeRandomTrees;ExtremeRandomTrees;ExtremeRandomTrees;XGBoostRegressor;ExtremeRandomTrees;RandomForest;ExtremeRandomTrees;RandomForest;XGBoostRegressor;ExtremeRandomTrees;ExtremeRandomTrees;RandomForest;RandomForest;XGBoostRegressor;RandomForest;ExtremeRandomTrees;GradientBoosting;RandomForest;XGBoostRegressor;ExtremeRandomTrees;LightGBM;ExtremeRandomTrees;ExtremeRandomTrees;XGBoostRegressor;RandomForest;ExtremeRandomTrees;RandomForest;VotingEnsemble
+  dynamic_allowlisting_iterations: <25>;<30>;<35>;<40>;<45>;<50>;<55>;<60>;
+  pipeline_id_001: >-
+    60395cc2553e38ddef50beb113191d931d4bb84d;2147b95d6f8da89599c0e694dd3c720b899f589c;b642768e6c9d4c9bee6a6a6a1b4afc42481348df;7873b31bc3fb6f3f62751264215c9ab9585aada6;0bb7462216caa7f4b6b77ac60c60392b76d3a8be;1cd9251da09c60ff4c7e63889baed74e975e0144;f2f972164c4f91241532dde4000cbd78256e32ee;2afcfa065529700cca7ef3c26a05ccba5f4af143;8074029c9ae36b39123b4aa0260f118faf64344b;1ec82ebac59bc307f74c0794a5b10868ed62a50d;e6d3b627d4d5233a4c761e9280a06f6388c365a8;93b6c91735bb779d5d68e960e1712c2e66ea3c38;f965cc7dc7bc85d21603f01f87fc901d881bbc41;bac2b658a7950512b3becaabfbf606079f5a2abf;70b20b92d287f2df845dffc28a865e700e66ced9;4e849b5a70b721f7d660c56bafb2e61192b33525;__AutoML_Ensemble__
+  _aml_system_azureml.automl_early_exit_message: >-
+    Experiment timeout reached, hence experiment stopped. Current experiment
+    timeout: 1 hour(s) 0 minute(s)
+properties:
+  num_iterations: '1000'
+  training_type: TrainFull
+  acquisition_function: EI
+  primary_metric: normalized_root_mean_squared_error
+  train_split: '0'
+  acquisition_parameter: '0'
+  num_cross_validation: ''
+  target: Serverless
+  AMLSettingsJsonString: >-
+    {"is_subgraph_orchestration":false,"is_automode":true,"path":"./sample_projects/PortAuthority_Traffic_Regression","subscription_id":"4e671770-7cdc-40a3-9945-4eef65fe7b8e","resource_group":"akale7-rg","workspace_name":"Aastha","iterations":1000,"primary_metric":"normalized_root_mean_squared_error","task_type":"regression","IsImageTask":false,"IsTextDNNTask":false,"test_size":0.3,"n_cross_validations":null,"preprocess":true,"is_timeseries":false,"time_column_name":null,"grain_column_names":null,"max_cores_per_iteration":-1,"max_concurrent_iterations":1,"max_nodes":1,"iteration_timeout_minutes":30,"enforce_time_on_windows":false,"experiment_timeout_minutes":60,"exit_score":"NaN","experiment_exit_score":"NaN","whitelist_models":null,"blacklist_models":null,"blacklist_algos":["TensorFlowDNN","TensorFlowLinearRegressor"],"auto_blacklist":false,"blacklist_samples_reached":false,"exclude_nan_labels":false,"verbosity":20,"model_explainability":true,"enable_onnx_compatible_models":false,"enable_feature_sweeping":false,"send_telemetry":true,"enable_early_stopping":false,"early_stopping_n_iters":20,"distributed_dnn_max_node_check":false,"enable_distributed_featurization":true,"enable_distributed_dnn_training":true,"enable_distributed_dnn_training_ort_ds":false,"ensemble_iterations":15,"enable_tf":false,"enable_cache":false,"enable_subsampling":false,"metric_operation":"minimize","enable_streaming":false,"use_incremental_learning_override":false,"force_streaming":false,"enable_dnn":false,"is_gpu_tmp":false,"enable_run_restructure":false,"featurization":{"_blocked_transformers":null,"_column_purposes":{},"_transformer_params":{"Imputer":null},"_dataset_language":null},"vm_type":"Standard_DS12_v2","vm_priority":"dedicated","label_column_name":"TOTAL","weight_column_name":null,"miro_flight":"default","many_models":false,"many_models_process_count_per_node":0,"automl_many_models_scenario":null,"enable_batch_run":true,"save_mlflow":true,"track_child_runs":true,"test_include_predictions_only":false,"enable_mltable_quick_profile":"True","has_multiple_series":false,"_enable_future_regressors":false,"enable_ensembling":true,"enable_stack_ensembling":false,"ensemble_download_models_timeout_sec":300.0,"stack_meta_learner_train_percentage":0.2}
+  DataPrepJsonString: null
+  EnableSubsampling: 'False'
+  runTemplate: AutoML
+  azureml.runsource: automl
+  _aml_internal_automl_best_rai: 'True'
+  ClientType: Mfe
+  _aml_system_scenario_identification: Remote.Parent
+  PlatformVersion: DPV2
+  environment_cpu_name: AzureML-ai-ml-automl
+  environment_cpu_label: '27'
+  environment_gpu_name: AzureML-ai-ml-automl-gpu
+  environment_gpu_label: '27'
+  root_attribution: automl
+  attribution: AutoML
+  Orchestrator: AutoML
+  CancelUri: >-
+    https://eastus2.api.azureml.ms/jasmine/v1.0/subscriptions/4e671770-7cdc-40a3-9945-4eef65fe7b8e/resourceGroups/akale7-rg/providers/Microsoft.MachineLearningServices/workspaces/Aastha/experimentids/9f10fbbc-3006-4e40-9b58-8f4385510393/cancel/jovial_jicama_cxrxm38fkx
+  mltable_data_json: >-
+    {"Type":"MLTable","TrainData":{"Uri":"azureml://locations/eastus2/workspaces/9bb1a263-e99b-4441-89fa-12a6b2e39ce6/data/regression_dataset/versions/1","ResolvedUri":"azureml://locations/eastus2/workspaces/9bb1a263-e99b-4441-89fa-12a6b2e39ce6/data/regression_dataset/versions/1","AssetId":"azureml://locations/eastus2/workspaces/9bb1a263-e99b-4441-89fa-12a6b2e39ce6/data/regression_dataset/versions/1"},"TestData":null,"ValidData":null}
+  ClientSdkVersion: null
+  snapshotId: 00000000-0000-0000-0000-000000000000
+  SetupRunId: jovial_jicama_cxrxm38fkx_setup
+  SetupRunContainerId: dcid.jovial_jicama_cxrxm38fkx_setup
+  FeaturizationRunJsonPath: featurizer_container.json
+  FeaturizationRunId: jovial_jicama_cxrxm38fkx_featurize
+  ProblemInfoJsonString: >-
+    {"dataset_num_categorical": 0, "is_sparse": true, "subsampling": false,
+    "has_extra_col": true, "dataset_classes": 1406, "dataset_features": 134,
+    "dataset_samples": 33030, "single_frequency_class_detected": false}
+  ModelExplainRunId: jovial_jicama_cxrxm38fkx_ModelExplain
+  ModelRAIRunId: jovial_jicama_cxrxm38fkx_RAI
+displayName: Traffic_regression
+status: Completed
+experimentName: PortAuthority_Traffic_Regression
+services:
+  Tracking:
+    jobServiceType: Tracking
+    port: null
+    endpoint: >-
+      azureml://eastus2.api.azureml.ms/mlflow/v1.0/subscriptions/4e671770-7cdc-40a3-9945-4eef65fe7b8e/resourceGroups/akale7-rg/providers/Microsoft.MachineLearningServices/workspaces/Aastha?
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+  Studio:
+    jobServiceType: Studio
+    port: null
+    endpoint: >-
+      https://ml.azure.com/runs/jovial_jicama_cxrxm38fkx?wsid=/subscriptions/4e671770-7cdc-40a3-9945-4eef65fe7b8e/resourcegroups/akale7-rg/workspaces/Aastha
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+computeId: >-
+  /subscriptions/4e671770-7cdc-40a3-9945-4eef65fe7b8e/resourceGroups/akale7-rg/providers/Microsoft.MachineLearningServices/workspaces/Aastha/computes/Serverless
+isArchived: false
+identity: null
+componentId: null
+notificationSetting: null
+secretsConfiguration: {}
+jobType: AutoML
+resources:
+  instanceCount: 1
+  maxInstanceCount: null
+  instanceType: Standard_DS12_v2
+  locations: null
+  properties:
+    ComputeSpecification:
+      Automatic: true
+      InstancePriority: Dedicated
+  shmSize: 2g
+  dockerArgs: null
+environmentId: null
+environmentVariables: null
+taskDetails:
+  logVerbosity: Info
+  trainingData:
+    description: null
+    uri: >-
+      azureml://locations/eastus2/workspaces/9bb1a263-e99b-4441-89fa-12a6b2e39ce6/data/regression_dataset/versions/1
+    mode: ReadOnlyMount
+    jobInputType: mltable
+  targetColumnName: TOTAL
+  limitSettings:
+    maxTrials: 1000
+    trialTimeout: PT30M
+    timeout: PT1H
+    maxConcurrentTrials: 1
+    maxNodes: 1
+    maxCoresPerTrial: -1
+    exitScore: null
+    enableEarlyTermination: false
+    sweepTrials: 0
+    sweepConcurrentTrials: 0
+  sweepSettings: null
+  fixedParameters: null
+  searchSpace: null
+  nCrossValidations: null
+  cvSplitColumnNames: null
+  weightColumnName: null
+  validationData: null
+  testData:
+    description: null
+    mode: ReadOnlyMount
+    jobInputType: mltable
+  validationDataSize: null
+  testDataSize: 0.3
+  featurizationSettings:
+    datasetLanguage: null
+    mode: Custom
+    blockedTransformers: []
+    columnNameAndTypes: {}
+    transformerParams:
+      Imputer: []
+    enableDnnFeaturization: false
+  taskType: Regression
+  primaryMetric: NormalizedRootMeanSquaredError
+  trainingSettings:
+    enableOnnxCompatibleModels: false
+    stackEnsembleSettings: null
+    enableStackEnsemble: false
+    enableVoteEnsemble: true
+    ensembleModelDownloadTimeout: PT5M
+    enableModelExplainability: true
+    enableDnnTraining: false
+    trainingMode: Auto
+    allowedTrainingAlgorithms: []
+    blockedTrainingAlgorithms: []
+outputs: {}
+queueSettings: null
